@@ -1,8 +1,6 @@
 <?php
-//<a href="https://gnusocial.me/social" target="_blank">Your Social Statistics for GSM!</a>
 /*
-Giphy Plugin for posts
-Looks at ALL local posts that come in the moment they come in and adds a Image URL to the end of it. (Eventually it will actually attach an image to the notice.)
+Add Links to Qvitter's Menu bar
 Built by: Mitchell Urgero (@loki@urgero.org) <info@urgero.org>
 */
 
