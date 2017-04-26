@@ -52,6 +52,14 @@ class AddLinksPlugin extends Plugin
 		<?php
 		}
 	}
+	 function onEndPersonalGroupNav(Menu $menu, Profile $target, Profile $scoped=null)
+    {
+        $custommenu = static::settings("links");
+		foreach($custommenu as $button){
+			$menu->menuItem($button['href'],$button['label'],$button['title'],false,"ID");
+		}
+        return true;
+    }
 }
 
 
